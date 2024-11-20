@@ -7,6 +7,11 @@ This repository contains the author's implementation in Pytorch for the paper "D
 
 * PyTorch: 1.11.0 + cuda 11.3
 
+> conda create -n DAWGDA python=3.7
+> conda activate DAWGDA
+> pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
+> pip install -r requirements.txt
+> conda install pyg=2.0.4=py37_torch_1.11.0_cu113 -c pyg
 
 ## Datasets:
 
